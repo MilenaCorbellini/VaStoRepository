@@ -302,6 +302,12 @@ hr.socket {
     margin-left:5em;
     margin-right: 10em;
 }
+.strumenti{
+    background-color: rgba(231, 227, 221, 0.7);
+    margin-left:1em;
+    margin-right: 3em;
+    font-family: 'Fira Sans', sans-serif;
+}
 #Credits h1{
     color: #DC143C;
     font-size:3rem;
@@ -333,6 +339,39 @@ hr.socket {
     color:crimson;
   }
 #Credits a:hover {
+    color:crimson;
+  }
+ #Strumenti h1{
+    color: #DC143C;
+    font-size:3rem;
+    font-weight:bold;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 0.5rem;
+}
+#Strumenti h2{
+    color: black;
+    font-size:1.3rem;
+    font-weight:bold;
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+}
+
+#Strumenti p{
+    color: rgb(31, 28, 28);
+    font-size:1rem;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: justify;
+    font-size: 1.2em;
+}
+#Strumenti a:link{
+    color: #DC143C;
+}
+
+#Strumenti a:visited {
+    color:crimson;
+  }
+#Strumenti a:hover {
     color:crimson;
   }
 #Documentation a:link{
