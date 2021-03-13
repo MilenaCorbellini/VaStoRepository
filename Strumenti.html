@@ -53,6 +53,45 @@ h3{
     font-weight:bold;
     font-family: 'Fira Sans', sans-serif;
 }
+@media screen and (min-width:769px) and (max-width: 1199px) { 
+    #S{
+        margin: 0em 0em 0em 0em !important;
+        padding: 0em !important;
+      
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        padding: 5px;
+        grid-column-gap: 0px;
+    }
+} 
+@media (max-width: 768px) {
+    #S{
+        margin: 0em 0em 0em 0em !important;
+        padding: 0em !important;
+      
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        padding: 5px;
+        grid-column-gap: 0px;
+    }
+}
+@media (max-width: 575px) {
+    #S{
+        margin: 0em 0em 0em 0em !important;
+        padding: 0em !important;
+      
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        padding: 5px;
+        grid-column-gap: 0px;
+    }
+}
 
     </style>
 </head>
@@ -85,7 +124,7 @@ h3{
                 </ul>
             </div>
         </nav>
-<div class="col-12 narrow">
+<div class="col-12 narrow" id="S">
 <h1>Strumenti di Visualizzazione</h1>
 <section class="strumenti" id="Credits">
     
@@ -115,7 +154,7 @@ h3{
         </div> 
         
         </div>
-        <div class="grid-item w-100 my-auto text-center text-lg-right"><h2>La mappa</h2> <p>In questa mappa sono state ripoortati tutti i luoghi di Firenze menzionati nella sezione analizzata della <em>Storia Fiorentina</em>. I luoghi identifiati in totale sono 24, divisi in cinque categorie o layers: castelli, piazze/località, chiese, ponti e porte. <br>  Attiva e disattiva i layers per cercare specifche tipologie di strutture. Cliccando sui marker potrai visualizzare un immagine e altre informazioni sul luogo, oltre al link diretto alle pagine della <em>Storia Fiorentina</em> in cui il luogo viene menzionato. <br> La mappa è stata sviluppata facdndo uso della open-source JavaScript library <a href="https://leafletjs.com/">Leaflet</a>.</p> <h3>Disclaimer</h3><p style="font-size: 0.7rem;">Tutte le immagini utilizzate sono sotto licenza <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a> o <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>.</p></div>
+        <div class="grid-item w-100 my-auto text-center text-lg-right"><h2>La mappa</h2> <p>In questa mappa sono state riportati tutti i luoghi di Firenze menzionati nella sezione analizzata della <em>Storia Fiorentina</em>. I luoghi identifiati in totale sono 24, divisi in cinque categorie o layers: castelli, piazze/località, chiese, ponti e porte. <br>  Attiva e disattiva i layers per cercare specifche tipologie di strutture. Cliccando sui marker potrai visualizzare un immagine e altre informazioni sul luogo, oltre al link diretto alle pagine della <em>Storia Fiorentina</em> in cui il luogo viene menzionato. <br> La mappa è stata sviluppata facdndo uso della open-source JavaScript library <a href="https://leafletjs.com/">Leaflet</a>.</p> <h3>Disclaimer</h3><p style="font-size: 0.7rem;">Tutte le immagini utilizzate sono sotto licenza <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a> o <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>.</p></div>
         <div class="grid-item  w-100 my-auto text-center text-lg-left">
             <h2>La collezione</h2><p>VaStoCollection è una collezione sviluppata tramite <a href="https://omeka.org/s/">Omeka S</a>, con lo scopo di raccogliere immagini e schede informative rigurdanti la <em>Storia Fiorentina </em>. Essa attualmente conta 3 set items: <b>Manoscritto RC4</b>, <b>Personaggi storici citati nella Storia Fiorentina di Benedetto Varchi </b> e <b>Ritatti dei Personaggi Storici menzionati nella Storia Fiorentina</b>.<br>
         L'item set <em>Manoscritto RC4</em> contiene e cataloga tutti i facsimiles del manoscritto RC4 utilizzati nell'edizione. Inoltre, ogni facsimile è associato a una riproduzione <a href="https://iiif.io/">IIF</a> dell'immagine stessa. Le riproduzioni IIF possono essere manipolate attraverso l'URI seguendo le istruzioni disponibili nel<a href="https://iiif.io/api/image/3.0/#4-image-requests"> sito ufficiale</a>.<br>

@@ -544,6 +544,17 @@ hr.socket {
     .strumenti{
         margin:Oem;
     }
+    #S{
+        margin: 0em 0em 0em 0em !important;
+        padding: 0em !important;
+      
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto !important;
+        padding: 5px;
+        grid-column-gap: 0px;
+    }
 }
 
 /*--- Media Queries --*/
@@ -638,7 +649,19 @@ hr.socket {
         margin: 0em;
     }
     .strumenti{
-        margin:Oem;
+        margin: 0em;
+     
+    }
+    #S{
+        margin: 0em 0em 0em 0em !important;
+        padding: 0em !important;
+      
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        padding: 5px;
+        grid-column-gap: 0px;
     }
 }
 
@@ -759,6 +782,17 @@ hr.socket {
 }
 .strumenti{
     margin:Oem;
+}
+#S{
+    margin: 0em 0em 0em 0em !important;
+    padding: 0em !important;
+  
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto ;
+    padding: 5px;
+    grid-column-gap: 0px;
 }
 }
 @media (min-width: 1200px) { 
