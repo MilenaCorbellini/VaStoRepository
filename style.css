@@ -541,6 +541,9 @@ hr.socket {
     .credits{
         margin: 0em;
     }
+    .strumenti{
+        margin:Oem;
+    }
 }
 
 /*--- Media Queries --*/
@@ -633,6 +636,9 @@ hr.socket {
     }
     .credits{
         margin: 0em;
+    }
+    .strumenti{
+        margin:Oem;
     }
 }
 
@@ -750,6 +756,9 @@ hr.socket {
 }
 .credits{
     margin: 0em;
+}
+.strumenti{
+    margin:Oem;
 }
 }
 @media (min-width: 1200px) { 
